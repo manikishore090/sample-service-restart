@@ -19,5 +19,5 @@ jobs:
           username: ${{ secrets.SERVER_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /home/ubuntu/test/
+            cd /home/ubuntu/sample-service-restart/
             git pull origin main # Pull the latest changes into the bare repo
