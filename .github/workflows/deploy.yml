@@ -21,4 +21,5 @@ jobs:
           script: |
             cd /home/ubuntu/sample-service-restart/
             git pull origin main # Pull the latest changes into the bare repo
-            touch file1
+            rm file1
+            /bin/bash post-receive
